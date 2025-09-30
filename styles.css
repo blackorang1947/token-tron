@@ -1,0 +1,195 @@
+/* Font dhe bazë */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Kontejneri */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+    background: linear-gradient(135deg, #0f3, rgba(0, 102, 204, 0.452));
+    color: #fff;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #0f3;
+    color: #000;
+    padding: 0.8rem 2rem;
+    margin: 0rem .5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #06c;
+    color: #fff;
+}
+
+.container ul li{
+    list-style: none;
+}
+
+/* Seksionet */
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    color: #0f3;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section p, section li {
+    color: #fff;
+    text-align: center;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+nav{
+    display: flex;
+    justify-content:end;
+}
+nav a{
+    margin:0px 20px;
+    color: #0f3;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 2px solid #0f3;
+}
+
+footer a {
+    color: #0f3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Animacione */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 10%;
+      gap: 20%;
+    }
+
+    /* Ikona */
+    .icon-circle {
+      background: linear-gradient(135deg, #3ccac7, #009d9a);
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon-circle img {
+      width: 350px;
+      height: auto;
+      background-color: black;
+    }
+
+    /* Teksti */
+    .text-box {
+      max-width: 500px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .text-box h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #fff;  
+    }
+
+    .text-box p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #fff;
+      margin-bottom: 25px;
+    }
+
+    .text-box button {
+      background: none;
+      border: 2px solid #fff;
+      color: #0f3;
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+
+    .text-box button:hover {
+      background: #e2c9a5;
+      color: white;
+    }
+
+
