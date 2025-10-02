@@ -21,7 +21,7 @@ faders.forEach(fader => {
     appearOnScroll.observe(fader);
 });
 
-const text = "Token Tron - Widespread Adoption";
+const text = "Trc Token - Widespread Adoption";
 let i = 0;
 const speed = 200; // Time for every characters
 
@@ -40,3 +40,4 @@ function typeWriter() {
 }
 
 window.onload = typeWriter;
+
